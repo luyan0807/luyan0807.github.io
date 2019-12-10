@@ -2,8 +2,8 @@
 title: LY Blog
 SEOTitle: LY Blog
 header-img: img/root/home-bg-fj.jpg
-email:  caojiele1225@126.com
-description: "关于Java | Java & Mobile Lover，Software Engineer | 这里是  LY 的个人博客，与你一起发现更大的世界。"
+email:  1035450222@qq.com
+description: "L&K"
 keyword: "LY 博客, 个人网站, 互联网, Java, node.js, 后端, 开发"
 url: "https://luyan0807.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -96,29 +96,5 @@ page-mathjax: false
 
 # Friends
 friends: [
-    {
-        title: "黄玄的博客",
-        href: "https://huangxuan.me/"
-    },{
-        title: "许雪里的博客",
-        href: "http://www.xuxueli.com/blog/#/"
-    },{
-        title: "小马哥的技术博客",
-        href: "https://mercyblitz.github.io/"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "David's Game",
-        href: "https://www.ruoyaowu.com/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "一之笔的博客",
-        href: "https://yizibi.github.io"
-    }
+    
 ]
