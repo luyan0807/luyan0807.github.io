@@ -1,21 +1,28 @@
 {
-  "name": "particle",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "gulp"
-  },
-  "author": "Nathan Randecker",
-  "license": "ISC",
-  "dependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.1",
-    "gulp-imagemin": "^5.0.3",
-    "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.1"
-  }
+    "name": "jlcao-blog",
+    "title": "Jlcao Blog",
+    "author": "Jlcao <caojiele1225@126.com>",
+    "version": "1.7.0",
+    "homepage": "https://caojiele.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/caojiele/caojiele.github.io"
+    },
+    "bugs": "https://github.com/caojiele/caojiele.github.io/issues",
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-less": "~0.11.4",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-banner": "~0.2.3",
+        "grunt-contrib-uglify": "~0.5.1"
+    },
+    "scripts": {
+        "preview": "cd _site; python -m SimpleHTTPServer 8020",
+        "py3view": "cd _site; python3 -m http.server 8020",
+        "watch"  : "grunt watch & npm run preview & jekyll serve -w",
+        "py3wa"  : "grunt watch & npm run py3view & jekyll serve -w",
+        "boil"   : "git push boilerplate boilerplate:master",
+        "push"   : "git push origin master --tag",
+        "cafe"   : "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
+    }
 }
