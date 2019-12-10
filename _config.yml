@@ -1,11 +1,11 @@
 # Site settings
-title: Jlcao Blog
-SEOTitle: 曹杰乐的博客 | Jlcao Blog
+title: LY Blog
+SEOTitle: LY Blog
 header-img: img/root/home-bg-fj.jpg
 email:  caojiele1225@126.com
-description: "关于程序与设计以及架构 | 曹杰乐，Java & Mobile Lover，Software Engineer | 这里是 @caojiele 曹杰乐 的个人博客，与你一起发现更大的世界。"
-keyword: "曹杰乐, Jiele曹杰乐, Jiele, Jack-cao, @caojiele, 曹杰乐的博客, Jlcao Blog, 博客, 个人网站, 互联网, Java, node.js, 后端, 开发"
-url: "https://caojiele.com"              # your host, for absolute URL
+description: "关于Java | Java & Mobile Lover，Software Engineer | 这里是  LY 的个人博客，与你一起发现更大的世界。"
+keyword: "LY 博客, 个人网站, 互联网, Java, node.js, 后端, 开发"
+url: "https://luyan0807.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,9 +13,9 @@ future: true
 
 # SNS settings
 RSS: true
-zhihu_username:     wang-le-6-62
-github_username:    caojiele
-linkedin_username:  Jack-cao-387159129  
+zhihu_username:     
+github_username:    luyan0807
+linkedin_username:  
 #weibo_username:    
 #twitter_username:   
 #facebook_username:  
@@ -80,7 +80,7 @@ baidu_analytics: 'f449fbb4d143d156c197d3a7a38a779d'
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: " When you look long into an abyss,the abyss looks into you<br> 当你凝视深渊时,深渊也在凝视你"
+sidebar-about-description: " When you look long into an abyss,the abyss looks into you<br> I see you"
 sidebar-avatar: https://cdn.nlark.com/yuque/0/2019/jpeg/338441/1561301140772-a4c43da7-3921-48bf-8c92-f57c4fdc97d9.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
